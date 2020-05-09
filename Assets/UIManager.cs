@@ -11,6 +11,11 @@ public class UIManager : MonoBehaviour
 		SceneManager.LoadScene("Roll-a-ball");
 	}
 	
+	public void TitleScreen()
+	{
+		SceneManager.LoadScene("MainMenu");
+	}
+	
 	public void ExitGame()
 	{
 		Application.Quit();
