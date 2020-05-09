@@ -47,7 +47,7 @@ public class PlayerController : MonoBehaviour {
         if (count >= 12)
         {
             winText.text = "You Win!";
-			Invoke("WinScreen", 3);
+			Invoke("WinScreen", 1);
         }
 		
 		
